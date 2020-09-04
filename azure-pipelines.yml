@@ -13,10 +13,10 @@ pool:
 variables:
   buildConfiguration: 'Release'
 
-steps:
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
 
+
+container:
+steps:
 - task: SonarCloudPrepare@1
   inputs:
     SonarCloud: 'SonarCloud'
@@ -24,3 +24,6 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'CoAP.Net'
     projectName: 'CoAP.Net'
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'dotnet build $(buildConfiguration)'
+- task: SonarCloudAnalyze@1
