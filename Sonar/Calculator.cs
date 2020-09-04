@@ -9,9 +9,8 @@ namespace Sonar
     /// </summary>
     public class Calculator
     {
-
         /// <summary>
-        /// Adds the two numbers
+        /// Adds the two numbers.
         /// </summary>
         /// <param name="v1">The first number.</param>
         /// <param name="v2">The second number.</param>
