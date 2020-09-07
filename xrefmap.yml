@@ -1,0 +1,53 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Sonar
+  name: Sonar
+  href: api/Sonar.html
+  commentId: N:Sonar
+  fullName: Sonar
+  nameWithType: Sonar
+- uid: Sonar.Calculator
+  name: Calculator
+  href: api/Sonar.Calculator.html
+  commentId: T:Sonar.Calculator
+  fullName: Sonar.Calculator
+  nameWithType: Calculator
+- uid: Sonar.Calculator.Add(System.Int32,System.Int32)
+  name: Add(Int32, Int32)
+  href: api/Sonar.Calculator.html#Sonar_Calculator_Add_System_Int32_System_Int32_
+  commentId: M:Sonar.Calculator.Add(System.Int32,System.Int32)
+  fullName: Sonar.Calculator.Add(System.Int32, System.Int32)
+  nameWithType: Calculator.Add(Int32, Int32)
+- uid: Sonar.Calculator.Add*
+  name: Add
+  href: api/Sonar.Calculator.html#Sonar_Calculator_Add_
+  commentId: Overload:Sonar.Calculator.Add
+  isSpec: "True"
+  fullName: Sonar.Calculator.Add
+  nameWithType: Calculator.Add
+- uid: Sonar.Helper
+  name: Sonar.Helper
+  href: api/Sonar.Helper.html
+  commentId: N:Sonar.Helper
+  fullName: Sonar.Helper
+  nameWithType: Sonar.Helper
+- uid: Sonar.Helper.Printer
+  name: Printer
+  href: api/Sonar.Helper.Printer.html
+  commentId: T:Sonar.Helper.Printer
+  fullName: Sonar.Helper.Printer
+  nameWithType: Printer
+- uid: Sonar.Helper.Printer.Print
+  name: Print()
+  href: api/Sonar.Helper.Printer.html#Sonar_Helper_Printer_Print
+  commentId: M:Sonar.Helper.Printer.Print
+  fullName: Sonar.Helper.Printer.Print()
+  nameWithType: Printer.Print()
+- uid: Sonar.Helper.Printer.Print*
+  name: Print
+  href: api/Sonar.Helper.Printer.html#Sonar_Helper_Printer_Print_
+  commentId: Overload:Sonar.Helper.Printer.Print
+  isSpec: "True"
+  fullName: Sonar.Helper.Printer.Print
+  nameWithType: Printer.Print
