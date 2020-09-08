@@ -9,7 +9,7 @@
           "exclude": [
             "**.Specs.csproj"
           ],
-          "src": "C:\\dev\\Sonar",
+          "src": "../",
           "properties": {
             "TargetFramework": "netstandard2.0"
           }
@@ -47,7 +47,8 @@
     "overwrite": [
       {
         "files": [
-          "apidoc/**.md"
+          "apidoc/**.md",
+          "namespaces/**.md"
         ],
         "exclude": [
           "obj/**",
